@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "Pulgin.plugin",
+    "module": "thedataplugin",
+    "version": "unspecified",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "thedataplugin-unspecified.jar",
+          "url": "thedataplugin-unspecified.jar",
+          "size": 13926,
+          "sha512": "2f86c622b677232dd700c49514267ca9f98b1719a75d877e863c61add794b98c792ff79f4fd60ff5a4792891e51c7fb6e379aa1f3de524670d305431921967fa",
+          "sha256": "bb709974965214d9bdc7ceb65a83009812e1fcf2a8a06647c6b0a7af8f75d94e",
+          "sha1": "64c95fe53bcb46e9305cf63293bdd4a04ce362da",
+          "md5": "e7d8a5eacc36a140c46d0b255ed22656"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.6"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "thedataplugin-unspecified.jar",
+          "url": "thedataplugin-unspecified.jar",
+          "size": 13926,
+          "sha512": "2f86c622b677232dd700c49514267ca9f98b1719a75d877e863c61add794b98c792ff79f4fd60ff5a4792891e51c7fb6e379aa1f3de524670d305431921967fa",
+          "sha256": "bb709974965214d9bdc7ceb65a83009812e1fcf2a8a06647c6b0a7af8f75d94e",
+          "sha1": "64c95fe53bcb46e9305cf63293bdd4a04ce362da",
+          "md5": "e7d8a5eacc36a140c46d0b255ed22656"
+        }
+      ]
+    }
+  ]
+}

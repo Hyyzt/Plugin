@@ -1,0 +1,42 @@
+plugins {
+    id("java-gradle-plugin")
+    id("maven-publish")
+    id 'org.jetbrains.kotlin.jvm' version '1.9.0'
+}
+
+gradlePlugin {
+    plugins {
+        create("TheDataPlugin") {
+            id = "com.the.data.plugin"
+            implementationClass = "com.the.data.plugin.TheDataPlugin"
+        }
+    }
+}
+
+dependencies {
+    implementation(libs.asm)
+    implementation(libs.asm.commons)
+    implementation(libs.gradle)
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
+
+publishing {
+    // 配置Plugin GAV
+    publications {
+        maven(MavenPublication) {
+            groupId = "com.the.data.plugin"
+            artifactId = 'plugin'
+            version = "1.0.37"
+
+            from components.java
+        }
+
+    }
+    // 配置仓库地址
+    repositories {
+        // ...
+        maven {
+            url './maven-repo'
+        }
+    }
+}
