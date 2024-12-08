@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        onTest(123, false, System.currentTimeMillis(), "2",TheDataBean())
+        onTest(123, false, System.currentTimeMillis(), "2", TheDataBean())
     }
 
     fun onTest2(userId: Int, isTrue: Boolean) {
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         @TheDataParams("isTrue") isTrue: Boolean,
         @TheDataParams("time") time: Long,
         @TheDataParams("age") age: String,
-        @TheDataParams("bean") bean: TheDataBean
+        bean: TheDataBean
     ) {
         val theDataBean = TheDataBean()
         theDataBean.strategy = 1
