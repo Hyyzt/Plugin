@@ -29,11 +29,11 @@
         {
           "name": "thedataplugin-unspecified.jar",
           "url": "thedataplugin-unspecified.jar",
-          "size": 13926,
-          "sha512": "2f86c622b677232dd700c49514267ca9f98b1719a75d877e863c61add794b98c792ff79f4fd60ff5a4792891e51c7fb6e379aa1f3de524670d305431921967fa",
-          "sha256": "bb709974965214d9bdc7ceb65a83009812e1fcf2a8a06647c6b0a7af8f75d94e",
-          "sha1": "64c95fe53bcb46e9305cf63293bdd4a04ce362da",
-          "md5": "e7d8a5eacc36a140c46d0b255ed22656"
+          "size": 13411,
+          "sha512": "1c926f2973b5d7e0112059dcf5800b0ff4350c549553b7199695b1626fa22582355bff9c81effa9006183a48b2d21ecf34d0588797f3618cd8a8f9226af49948",
+          "sha256": "93bbf93e66db08528a505553c90286f18d4d5ac65792657e0d0c8de9d5acca42",
+          "sha1": "e795872de8d0ddff900c1bc414d0de7359db38b3",
+          "md5": "ea9b7d06c6a71244e43b6960e7fca1c0"
         }
       ]
     },
@@ -82,11 +82,11 @@
         {
           "name": "thedataplugin-unspecified.jar",
           "url": "thedataplugin-unspecified.jar",
-          "size": 13926,
-          "sha512": "2f86c622b677232dd700c49514267ca9f98b1719a75d877e863c61add794b98c792ff79f4fd60ff5a4792891e51c7fb6e379aa1f3de524670d305431921967fa",
-          "sha256": "bb709974965214d9bdc7ceb65a83009812e1fcf2a8a06647c6b0a7af8f75d94e",
-          "sha1": "64c95fe53bcb46e9305cf63293bdd4a04ce362da",
-          "md5": "e7d8a5eacc36a140c46d0b255ed22656"
+          "size": 13411,
+          "sha512": "1c926f2973b5d7e0112059dcf5800b0ff4350c549553b7199695b1626fa22582355bff9c81effa9006183a48b2d21ecf34d0588797f3618cd8a8f9226af49948",
+          "sha256": "93bbf93e66db08528a505553c90286f18d4d5ac65792657e0d0c8de9d5acca42",
+          "sha1": "e795872de8d0ddff900c1bc414d0de7359db38b3",
+          "md5": "ea9b7d06c6a71244e43b6960e7fca1c0"
         }
       ]
     }
