@@ -180,7 +180,7 @@ class AnnotatedMethodClassVisitor(api: Int, classVisitor: ClassVisitor) :
                 mv.visitMethodInsn(
                     INVOKEVIRTUAL,
                     "com/the/data/TheData",
-                    "commitV2",
+                    "commit",
                     "(Lcom/the/data/TheDataBean;)V",
                     false
                 ) // 调用 commitV2 方法，传入 TheDataBean 对象

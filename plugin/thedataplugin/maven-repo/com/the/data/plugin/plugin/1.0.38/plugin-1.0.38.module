@@ -1,9 +1,9 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "Pulgin.plugin",
-    "module": "thedataplugin",
-    "version": "unspecified",
+    "group": "com.the.data.plugin",
+    "module": "plugin",
+    "version": "1.0.38",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -27,8 +27,8 @@
       },
       "files": [
         {
-          "name": "thedataplugin-unspecified.jar",
-          "url": "thedataplugin-unspecified.jar",
+          "name": "plugin-1.0.38.jar",
+          "url": "plugin-1.0.38.jar",
           "size": 13409,
           "sha512": "2f4eae4585f23b3c6b93246947ac390af66d51829fc882cc6d1e1a41ba29a27a4b78fd42b3231b6806dceafbe02435dd8515b517fbf0359832a15ab1e45833bb",
           "sha256": "e0626195092ca1e1ffd50ad0a224a41cfc0e459f2910bbdcdcb5b25233134c5a",
@@ -80,8 +80,8 @@
       ],
       "files": [
         {
-          "name": "thedataplugin-unspecified.jar",
-          "url": "thedataplugin-unspecified.jar",
+          "name": "plugin-1.0.38.jar",
+          "url": "plugin-1.0.38.jar",
           "size": 13409,
           "sha512": "2f4eae4585f23b3c6b93246947ac390af66d51829fc882cc6d1e1a41ba29a27a4b78fd42b3231b6806dceafbe02435dd8515b517fbf0359832a15ab1e45833bb",
           "sha256": "e0626195092ca1e1ffd50ad0a224a41cfc0e459f2910bbdcdcb5b25233134c5a",

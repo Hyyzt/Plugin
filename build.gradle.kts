@@ -1,7 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     dependencies {
-        classpath("com.the.data.plugin:plugin:1.0.37")
+        classpath("com.the.data.plugin:plugin:1.0.38")
     }
 }
 

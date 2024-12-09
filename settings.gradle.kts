@@ -25,7 +25,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Pulgin"
+rootProject.name = "Plugin"
 include(":app")
 include(":plugin:thedata")
 include(":plugin:thedataplugin")
